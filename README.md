@@ -29,6 +29,9 @@ My goals from this program were to allow me to assist in improving procedures wi
 ***How does this contribute to the specialization you are targeting for your career?***
 By showcasing tools created for the professional space, I will be demonstrating real-world examples of how my targeted specialization of creating career specific software is already seeing a benefit.
 
+# Code Review
+<video src='https://www.youtube.com/embed/5JeJtqMttag?si=53aqhyq_LXM6HQkI' width=180/>
+
 
 
 
