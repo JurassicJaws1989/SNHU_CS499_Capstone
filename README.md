@@ -30,7 +30,7 @@ My goals from this program were to allow me to assist in improving procedures wi
 By showcasing tools created for the professional space, I will be demonstrating real-world examples of how my targeted specialization of creating career specific software is already seeing a benefit.
 
 # Code Review
-[![Watch the video](https://img.youtube.com/vi/_5JeJtqMttag/0.jpg)](https://www.youtube.com/watch?v=_5JeJtqMttag)
+[![Watch the video](https://img.youtube.com/vi/5JeJtqMttag/0.jpg)](https://www.youtube.com/watch?v=5JeJtqMttag)
 
 
 
