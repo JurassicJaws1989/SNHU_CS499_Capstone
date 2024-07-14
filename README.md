@@ -30,7 +30,7 @@ My goals from this program were to allow me to assist in improving procedures wi
 By showcasing tools created for the professional space, I will be demonstrating real-world examples of how my targeted specialization of creating career specific software is already seeing a benefit.
 
 # Code Review
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5JeJtqMttag?si=53aqhyq_LXM6HQkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![SNHU CS-499 Code Review](https://www.youtube.com/watch?v=5JeJtqMttag/0.jpg)](https://www.youtube.com/watch?v=5JeJtqMttag)
 
 
 
