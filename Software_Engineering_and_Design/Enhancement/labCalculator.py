@@ -59,21 +59,21 @@ def changeTheme(themeCheck):
         butColor = '#706d6d'
         entryColor = '#9e9b9b'
         mainScreen(bColor,tColor,butColor,entryColor)
-    if themeCheck == "Forest":
-        bColor = '#606c38'
-        tColor = '#3c1518'
-        butColor = '#9c6644'
-        entryColor = '#e6ccb2'
+    if themeCheck == "Autumn":
+        bColor = '#d49222'
+        tColor = '#0a0a0a'
+        butColor = '#c27e3a'
+        entryColor = '#f2bd94'
         mainScreen(bColor,tColor,butColor,entryColor)
     if themeCheck == "Snow":
         bColor = '#a0eaf2'
         tColor = '#0c0d0d'
         butColor = '#02f5f5'
-        entryColor = '#e3cdb8'
+        entryColor = '#daf5f5'
         mainScreen(bColor,tColor,butColor,entryColor)
         
 #Theme Settings - Configures drop down for user selected theme
-options = ["Light","Dark","Forest","Snow"]
+options = ["Light","Dark","Autumn","Snow"]
 global theme
 theme = tk.StringVar()
 theme.set("Choose Theme")
@@ -96,7 +96,7 @@ def createFrame(title,bColor,tColor,butColor,entryColor):
 def mainScreen(bColor,tColor,butColor,entryColor):
     createFrame("Lab Calculator Menu",bColor,tColor,butColor,entryColor)
     #Theme Settings
-    options = ["Light","Dark","Forest","Snow"]
+    options = ["Light","Dark","Autumn","Snow"]
     theme.set("Choose Theme")
     themeDrop = tk.OptionMenu(canvas, theme, *options,command=changeTheme)
     themeDrop.place(height = 50, width = 150, x = 640, y = 700)
