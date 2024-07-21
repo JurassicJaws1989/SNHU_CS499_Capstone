@@ -7,30 +7,26 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 # Self Introduction
 
-***How long have you been in the Computer Science program?***
-In 2016, I made a decision to pursue my degree at the age of 27. At that time, I enrolled in a local community college in hopes of achieving an Associate’s degree in Engineering Technology. After taking a few classes, the program was cancelled due to lack of interest and I began brainstorming my options. It was in 2019, at 30 years old, when I decided that SHNU and Computer Science was to be my path. 
 
-***What have you learned while in the program? List three of the most important concepts or skills you have learned.***
-In the past 4-5 years, I have learned so much more than I ever could have envisioned while being enrolled in this program. The following are some of the concepts that have been extraordinarily beneficial to my own personal career.
-* Database Systems: The knowledge of how to interact with large quantities of data in a quick and efficient manner.
-* User Experience: One of my favorite concepts was understanding the science behind the user experience and interaction.
-* Vision/Graphics: While this is a concept that I still need much more experience in, learning concepts surrounding computational graphics was among the most exciting and compelling things that I learned about.
-
-***Discuss the specific skills you aim to demonstrate through your enhancements to reach each of the course outcomes.***
-I plan on showcasing my ability to create beneficial user interfaces that enable the user to easily access the functionality of a given application. I plan on demonstrating the following,
-* Adherence to best UI/UX practices
-* Code readability and maintainability
-* Interactivity to career specific databases
-* Software design for procedural improvement in a career specific setting
-
-***How do the specific skills you will demonstrate align with your career plans related to your degree?***
-My goals from this program were to allow me to assist in improving procedures within my profession. The skills I aim to demonstrate will showcase examples of these tools that directly stem from the knowledge gained here at SNHU
-
-***How does this contribute to the specialization you are targeting for your career?***
-By showcasing tools created for the professional space, I will be demonstrating real-world examples of how my targeted specialization of creating career specific software is already seeing a benefit.
 
 # Code Review
 [![Watch the video](https://img.youtube.com/vi/5JeJtqMttag/0.jpg)](https://www.youtube.com/watch?v=5JeJtqMttag)
+
+# Enhancement One: Software Design/Engineering
+For the software design and engineering element, I decided to choose a calculator application I wrote in Python back in 2020. This was the first real application I created, and one of my earliest creations in Python. The calculator provides process improvements in a laboratory environment and hosts relatively simply functionality in an easy to use interface. 
+	My reasoning for choosing this element comes from the fact that I did not have the knowledge set I have now when I initially created this application. It was in desperate need of both a functionality overhaul, along with massive improvements in terms of how the code itself was written. One of the biggest elements that I changed within this application that show off my current skillset is the complete rewriting of the application’s code. During the enhancement, I was able to do the following,
+*	Adjust variable/function names to adhere to a standard practice
+*	Add in commenting and documentation
+*	Reduce/eliminate redundant code blocks with better use of function calls
+By doing this, the code is much more clean and readable, and more effective in the process. 
+Another aspect that I enhanced shows off my ability to adhere to best practices in UI/UX principles by greatly improving the user interface of this application. I was able to consolidate the entire application within a single window, cleaning up the interface significantly. I also performed a complete overhaul of the “theme” selection within the utility, making it not only more user friendly when choosing the customizable layout, but much easier to add in new themes on a programming end. 
+By performing this enhancement, I was able to meet the objectives I had previously planned. These surrounded demonstrating the execution of properly written code that is readable, maintainable, and functional, along with fully displaying my knowledge on creating a fully functional user interface that adheres to best practices. I was able to demonstrate that I am meeting the following course outcomes,
+* Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices
+* Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals
+While working through the enhancement process, I was met with challenges throughout the process (as to be expected with any project). The first real challenge was dealing with the original code. As I mentioned, this was written exclusively by myself quite a few years ago. This was before I had any real experience in programming. Due to this, I found it difficult to recall what exactly was going on within this code, especially given the lack of commenting and poor readability within the code. I had to instead use the original application’s functionality as a basis/starting point, and re-write the code entirely from the ground up. This added time, but made the enhancement much easier in the end. 
+I also ran into some minor trouble with the execution of the theme selection within the utility. In the previous code, I was calling multiple configuration function calls throughout when users would select a new color scheme via a button press. This was messy, both in the interface, and in the code. I wanted instead to feature a theme dropdown on the main menu, and store specific widget colors as variables. At first, I found difficulty in passing these color variables throughout all of the various screens. I was able to overcome this by declaring them globally within the theme function definition. Although I found this a bit more challenging than simply calling colors via button clicks, it was more rewarding when it became functional. It also looks significantly better within the application. 
+Attached, you will find a quick video that details the enhanced utility in operation. 
+
 
 
 
