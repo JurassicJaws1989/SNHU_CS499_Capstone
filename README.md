@@ -28,9 +28,9 @@ By performing this enhancement, I was able to meet the objectives I had previous
   
 While working through the enhancement process, I was met with challenges throughout the process (as to be expected with any project). The first real challenge was dealing with the original code. As I mentioned, this was written exclusively by myself quite a few years ago. This was before I had any real experience in programming. Due to this, I found it difficult to recall what exactly was going on within this code, especially given the lack of commenting and poor readability within the code. I had to instead use the original application’s functionality as a basis/starting point, and re-write the code entirely from the ground up. This added time, but made the enhancement much easier in the end. 
 I also ran into some minor trouble with the execution of the theme selection within the utility. In the previous code, I was calling multiple configuration function calls throughout when users would select a new color scheme via a button press. This was messy, both in the interface, and in the code. I wanted instead to feature a theme dropdown on the main menu, and store specific widget colors as variables. At first, I found difficulty in passing these color variables throughout all of the various screens. I was able to overcome this by declaring them globally within the theme function definition. Although I found this a bit more challenging than simply calling colors via button clicks, it was more rewarding when it became functional. It also looks significantly better within the application. 
-Attached, you will find a quick video that details the enhanced utility in operation. 
+Attached, you will find some screenshots that detail the enhanced utility in operation. 
 
-
+![Calculator Demo Screens](./Pictures/Calc_Demo.jpg)
 
 
 
