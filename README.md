@@ -30,7 +30,7 @@ While working through the enhancement process, I was met with challenges through
 I also ran into some minor trouble with the execution of the theme selection within the utility. In the previous code, I was calling multiple configuration function calls throughout when users would select a new color scheme via a button press. This was messy, both in the interface, and in the code. I wanted instead to feature a theme dropdown on the main menu, and store specific widget colors as variables. At first, I found difficulty in passing these color variables throughout all of the various screens. I was able to overcome this by declaring them globally within the theme function definition. Although I found this a bit more challenging than simply calling colors via button clicks, it was more rewarding when it became functional. It also looks significantly better within the application. 
 Attached, you will find some screenshots that detail the enhanced utility in operation. 
 
-![Calculator Demo Screens](./Pictures/Calc_Demo.jpg)
+![Calculator Demo Screens](./Pictures/Calc_Demo.JPG)
 
 
 
