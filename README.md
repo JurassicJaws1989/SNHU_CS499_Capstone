@@ -14,8 +14,9 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 # Enhancement One: Software Design/Engineering
 [Click Here For Source Code](https://github.com/JurassicJaws1989/SNHU_CS499_Capstone/tree/main/Software_Engineering_and_Design)
+
 For the software design and engineering element, I decided to choose a calculator application I wrote in Python back in 2020. This was the first real application I created, and one of my earliest creations in Python. The calculator provides process improvements in a laboratory environment and hosts relatively simply functionality in an easy to use interface. 
-	My reasoning for choosing this element comes from the fact that I did not have the knowledge set I have now when I initially created this application. It was in desperate need of both a functionality overhaul, along with massive improvements in terms of how the code itself was written. One of the biggest elements that I changed within this application that show off my current skillset is the complete rewriting of the application’s code. During the enhancement, I was able to do the following,
+My reasoning for choosing this element comes from the fact that I did not have the knowledge set I have now when I initially created this application. It was in desperate need of both a functionality overhaul, along with massive improvements in terms of how the code itself was written. One of the biggest elements that I changed within this application that show off my current skillset is the complete rewriting of the application’s code. During the enhancement, I was able to do the following,
 *	Adjust variable/function names to adhere to a standard practice
 *	Add in commenting and documentation
 *	Reduce/eliminate redundant code blocks with better use of function calls
@@ -32,6 +33,22 @@ I also ran into some minor trouble with the execution of the theme selection wit
 Attached, you will find some screenshots that detail the enhanced utility in operation. 
 
 ![Calculator Demo Screens](./Pictures/Calc_Demo.JPG)
+
+# Enhancement Two: Algorithms and Data Structure
+[Click Here For Source Code](https://github.com/JurassicJaws1989/SNHU_CS499_Capstone/tree/main/Algorithms_and_Data_Structures)
+
+The artifact I chose for the Algorithms and Data Structure element is from a project that we worked on during CS-260 (Data Structures and Algorithms). Specifically, from module six, where we were tasked with creating a binary search tree function in C++ that interacts with a large data structure of electronic bids. The emphasis of the assignment was to understand how a binary tree search works, and to showcase its improvement in terms of speed when searching large data structures. We were also tasked with creating a test interface within the terminal to interact with the functionality. The functionality we were tasked on adding was,
+*	Load Bids – read in data from .csv file and appropriately add it to a binary tree
+*	Display Bids – display all bids in record
+*	Find Bid – perform the search within the binary search tree by entering a bid ID
+*	Display Time – record and display the elapsed time of the search
+
+One of the major reasons I chose this artifact was the fact that I did not completely recall how this search function worked. I wanted to use this exercise as a means to familiarize myself with this particular algorithm, along with challenge myself with attempting to port this functionality to an entirely different language, Python. Furthermore, since this original artifact only had a test interface within the terminal, I wanted to further showcase my skills in creating a user focused utility to house this functionality. I was glad that I made this choice, as I now feel very comfortable with the understanding of how this search algorithm works, and why it is able to drastically improve search times. Although challenging at first, I am also quite impressed with my ability to recreate this functionality in Python.
+After creating the binary search tree class, I was also able to wrap everything up within a fairly standard, yet functional user interface. The following screenshots provide this in more detail,
+
+# LOAD BIDS:
+![EBID](./Pictures/Load_Bids.png)
+
 
 
 
