@@ -49,8 +49,10 @@ After creating the binary search tree class, I was also able to wrap everything 
 # LOAD BIDS:
 ![EBID](./Pictures/Load_Bids.png)
 
+# DISPLAY BIDS:
+![EBID](./Pictures/Display_Bids.png)
 
-
-
+# SEARCH BIDS:
+![EBID](./Pictures/Search_Bids.png)
 
 
