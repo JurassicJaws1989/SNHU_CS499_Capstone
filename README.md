@@ -13,6 +13,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 [![Watch the video](https://img.youtube.com/vi/5JeJtqMttag/0.jpg)](https://www.youtube.com/watch?v=5JeJtqMttag)
 
 # Enhancement One: Software Design/Engineering
+[Click Here For Source Code](https://github.com/JurassicJaws1989/SNHU_CS499_Capstone/tree/main/Software_Engineering_and_Design)
 For the software design and engineering element, I decided to choose a calculator application I wrote in Python back in 2020. This was the first real application I created, and one of my earliest creations in Python. The calculator provides process improvements in a laboratory environment and hosts relatively simply functionality in an easy to use interface. 
 	My reasoning for choosing this element comes from the fact that I did not have the knowledge set I have now when I initially created this application. It was in desperate need of both a functionality overhaul, along with massive improvements in terms of how the code itself was written. One of the biggest elements that I changed within this application that show off my current skillset is the complete rewriting of the application’s code. During the enhancement, I was able to do the following,
 *	Adjust variable/function names to adhere to a standard practice
