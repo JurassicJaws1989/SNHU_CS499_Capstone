@@ -44,7 +44,7 @@ class BinarySearchTree:
     def search(self, key):
         return self.searchRecords(self.root, key)
 
-    #Record search, BST was created using first element of tuple - this does not work for bid ID!
+    #Record search, BST was created using entire tuple - this does not work for bid ID!
     def searchRecords(self, root, key):
         #Enter column number for search term (0 for title, 1 for bidID)
         if root is None or root.key[1] == key:
