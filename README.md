@@ -56,3 +56,14 @@ After creating the binary search tree class, I was also able to wrap everything 
 ![EBID](./Pictures/Search_Bids.png)
 
 I was able to meet the objectives I laid out for myself for this enhancement, and found it to be extremely rewarding albeit a bit challenging at times. Some of the challenges I faced initially surrounded my initial unfamiliarity with how the class was defined and how the algorithm operates. My initial comments within the original C++ element did not provide me with enough detail to hit the ground running. With a little research back into the resources for CS-260, I was able to better understand this. I also ran into an issue with the way my BST was being created. I was inserting bids (keys) into the tree depending on the size of the overall tuple. This ended up making it impossible to correctly traverse the tree when searching for ID numbers specifically. I ended up having to get creative within the search to correctly traverse, yet still identify specific bid ID numbers (and still maintain high speed). This ended up being useful as I progress to the third enhancement element, where I will further improve the ability to both search and interact with this relatively large data structure. 
+
+# Enhancement Three: Database
+[Click Here For Source Code](https://github.com/JurassicJaws1989/SNHU_CS499_Capstone/tree/main/Database)
+
+The element for my third and final enhancement, the database element, was a follow up on my previously enhanced element, the electronic bid search function. It originated as a simple terminal based binary search tree function in C++. In the last milestone, I ported this functionality over to Python and created an interface to interact with the ID search.
+What I wanted to do with this further enhancement, was to completely overhaul the search and display functionality for this large dataset, and make it more user interactive within the utility. I ended up making use of a Pandas data frame to interact with this data set, and made it more visible within the utility in a nice tabular view. Furthermore, I added the functionality to sort the dataset by numerous fields via a radio button click. Now, as for the search functionality, one thing I wanted to enhance within this utility was to allow for the user to search for more than just the ID. So, I added the ability to search by numerous fields via a drop down, in which the program will display all of the bids that match the specified criteria. 
+I also wanted to add some level of protection to this utility by making it password protected. So, the user must enter a password before being allowed access to the utility’s functionality. So, let’s take a look at the end result,
+# Password Functionality
+The user enters the correct password before access is granted.
+
+
