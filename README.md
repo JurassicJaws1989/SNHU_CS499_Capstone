@@ -65,5 +65,26 @@ What I wanted to do with this further enhancement, was to completely overhaul th
 I also wanted to add some level of protection to this utility by making it password protected. So, the user must enter a password before being allowed access to the utility’s functionality. So, let’s take a look at the end result,
 # Password Functionality
 The user enters the correct password before access is granted.
+![EBID](./Pictures/PW.png)
+
+# Bids loaded and displayed automatically
+![EBID](./Pictures/LOAD.png)
+
+# Sort and Display
+![EBID](./Pictures/SORT.png)
+
+# Search by Specific Variable
+![EBID](./Pictures/SEARCH.png)
+![EBID](./Pictures/SEARCH2.png)
+
+By implementing these changes to this utility, I have shown my ability to work with large datasets and create the appropriate functionality to allow a user to interact with them as well. I have also shown my continued ability to keep the user in mind when designing applications that are both functional, and easy to operate. I have also shown adherence to security protocols by locking functionality behind some level of user protection and control measures. 
+Previously, I did not have a wealth of experience with using the Pandas module in Python. While much of the functionality is possible that exists in other database specific languages like SQL, I found the specific syntax to perform the queries to be difficult at first. Furthermore, wrapping this all into the utility while passing all of the needed variables around successfully was challenging. Throughout all of these enhancements, I feel that I have learned so much more about these fundamentals and it has all happened in a pretty short amount of time. I am astonished at the work I was able to complete and the fact that I was able to meet the goals that I had set out to meet in the beginning of this course. 
+With this said, I have shown through these enhancements that I meet the following course outcomes,
+
+*	Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
+*	Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+*	Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)
+*	Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)
+*	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
 
 
