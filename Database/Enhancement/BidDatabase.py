@@ -22,13 +22,16 @@ class BidDatabaseApp:
         self.root.resizable(width=False, height=False)
 
         # Widget Colors
-        self.bColor = '#f2f4f7'
-        self.tColor = '#01050d'
-        self.butColor = '#d7d8db'
+        self.bColor = '#d5d5d5'
+        self.tColor = '#060606'
+        self.butColor = '#ababac'
 
         # Setup the main application window
         self.setup_main_window()
 
+        # Store initial column widths
+        self.column_widths = {}
+        
     def setup_main_window(self):
         self.canvas = tk.Canvas(self.root, height=800, width=1000, bg=self.bColor, relief='raised')
         self.canvas.pack()
@@ -56,7 +59,7 @@ class BidDatabaseApp:
 
         # Sort by column
         self.column_var = tk.StringVar(value='Auction Title ')
-        self.radio_frame = tk.Frame(self.canvas)
+        self.radio_frame = tk.Frame(self.canvas,bg=self.bColor)
         self.radio_frame.place(x=450, y=130, height=50, width=400)
         self.create_radio_buttons()
 
@@ -75,6 +78,7 @@ class BidDatabaseApp:
         self.searchOption = tk.StringVar(value='Auction Title ')
         self.searchDrop = tk.OptionMenu(self.canvas, self.searchOption, *self.dropList)
         self.searchDrop.place(height = 25, width = 125, x = 150, y = 200)
+        self.searchDrop.config(fg=self.tColor, bg=self.bColor)
 
         # Search Button
         self.searchButton = tk.Button(self.canvas, text = "Search", fg=self.tColor, bg=self.butColor, font=('Segoe UI', 12), command = self.perform_search)
@@ -82,7 +86,10 @@ class BidDatabaseApp:
 
     def load_data(self, file):
         try:
-            return pd.read_excel(file, sheet_name='eBid_Monthly_Sales', header=0, index_col=None, usecols=[0,1,2,3,4,7])
+            #Select Columns
+            #return pd.read_excel(file, sheet_name='eBid_Monthly_Sales', header=0, index_col=None, usecols=[0,1,2,3,4,7])
+            #All Data
+            return pd.read_excel(file, sheet_name='eBid_Monthly_Sales', header=0, index_col=None)
         except Exception as e:
             print(f"Error loading file: {e}")
             return pd.DataFrame()  # Return an empty DataFrame on error
@@ -91,16 +98,28 @@ class BidDatabaseApp:
         # Clear existing content
         for item in self.tree.get_children():
             self.tree.delete(item)
+
+        # Store column widths
+        column_widths = {col: self.tree.column(col, 'width') for col in self.tree["columns"]}
         
         # Set column headers
+        self.columns = list(dataframe.columns)
         self.tree["columns"] = list(dataframe.columns)
         for col in dataframe.columns:
             self.tree.heading(col, text=col)
-            self.tree.column(col, width=100)
+            #self.tree.column(col, width=column_widths.get(col, 100), anchor='w')
+            self.tree.column(col, stretch=False, width=100, anchor='w')
         
         # Insert rows
         for _, row in dataframe.iterrows():
             self.tree.insert("", "end", values=list(row))
+
+        
+        self.tree["displaycolumns"] = self.columns
+
+        # Hide the first implicit column if necessary
+        if len(self.tree["columns"]) > 0:
+            self.tree.column("#0", width=0, stretch=tk.NO)  
 
     def sort_by_column(self, column):
         sorted_df = self.df.sort_values(by=column, ascending=True)
